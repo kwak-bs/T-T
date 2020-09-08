@@ -75,15 +75,23 @@
 - **빈(Bean)** 
   - 스프링이 IoC 방식으로 관리하는 객체라는 의미이다.
   - 스프링이 직접 생성과 제어를 담당하는 객체를 Bean이라고 부른다.
+  
+  
 - **빈 팩토리(BeanFactory)**
+  
   - 스프링의 IoC를 담당하는 핵심 컨테이너를 가리킨다.
   - Bean을 등록, 생성, 조회, 반환하는 기능을 담당한다.
   - 이 BeanFactory를 바로 사용하지 않고 이를 확장한 ApplicationContext를 주로 이용한다.
+  
+  
 - **애플리케이션 컨텍스트(ApplicationContext)**
   - BeanFactory를 확장한 IoC 컨테이너
   - Bean을 등록하고 관리하는 기능은 BeanFactory와 동일하지만 스프링이 제공하는 각종 부가 서비스를 추가로 제공한다. 
   - 스프링에서는 ApllicationContext를 BeanFactory보다 더 많이 사용한다.
-- 설정 메타정보(Configuration metadata)
+  
+  
+- **설정 메타정보(Configuration metadata)**
+  
   - ApplicationContext 또는 BeanFactory가 IoC를 적용하기 위해 사용하는 메타정보를 말한다.
   - 설정 메타정보는 IoC 컨테이너에 의해 관리되는 Bean 객체를 생성하고 구성할 때 사용된다.
 
@@ -92,16 +100,21 @@
 ## DI의 유형
 
 - **Setter Injection :** Setter 메서드를 이용한 의존성 삽입.
+  
   - 의존성을 입력 받는 setter 메서드를 만들고 이를 통해 의존성을 주입한다.
+  
+  
 - **Constructor Injection :** 생성자를 이용한 의존성 삽입.
+  
   - 필요한 의존성을 포함하는 클래스의 생성자를 만들고 이를 통해 의존성을 주입한다.
+  
+  
 - **Method Injection :** 일반 메서드를 이용한 의존성 삽입.
+  
   - 의존성을 입력 받는 일반 메서드를 만들고 이를 통해 의존성을 주입한다.
 
 
 
 ##### 출처
-
-
 
 Spring Framework 입문과 활용 (저자 : 백명숙)
