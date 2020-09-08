@@ -16,32 +16,32 @@
 
 ##  Spring framework 특징 
 
-1. 컨테이너 역할
+1. **컨테이너 역할**
    
    - Spring 컨테이너는 Java 객체의 LifeCycle을 관리하며, Spring 컨테이너로 부터 필요한 객체를 가져와 사용할 수 있다.
    
    
-2. DI (Dependency Injection) 지원
+2. **DI (Dependency Injection) 지원**
    
    - Spring은 설정 파일이나 어노테이션을 통해서 객체 간의 의존관계를 설정할 수 있도록 하고 있다.
    
    
-3. AOP (Aspect Oriented Programming) 지원
+3. **AOP (Aspect Oriented Programming) 지원**
    
    - Spring은 트랜잭션이나 로깅, 보안과 같이 공통적으로 필요로 하는 모듈들을 실제 핵심 모듈에서 분리해서 적용할 수 있다.
    
    
-4. POJO (Plain Old Java Object) 지원
+4. **POJO (Plain Old Java Object) 지원**
    
    - Spring 컨테이너에 저장되는 Java 객체는 특정한 인터페이스를 구현하거나, 특정 클래스를 상속받지 않아도 된다. 
    
    
-5. 트랜잭션 처리를 위한 일괄된 방법을 지원
+5. **트랜잭션 처리를 위한 일괄된 방법을 지원**
    
    - JDBC, JTA 등 어떤 트랜잭션을 사용하던 설정을 통해 정보를 관리하므로 트랜잭션 구현에 상관없이 동일한 코드 사용가능.
    
    
-6. 영속성(Persistence)과 관련된 다양한 API 지원
+6. **영속성(Persistence)과 관련된 다양한 API 지원**
    
    - Spring은 MyBatis, Hibernate 등 데이터베이스 처리를 위한 ORM(Object Relational Mapping) 프레임워크들과의 연동 지원
 
