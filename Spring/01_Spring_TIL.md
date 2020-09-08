@@ -20,26 +20,21 @@
    
    - Spring 컨테이너는 Java 객체의 LifeCycle을 관리하며, Spring 컨테이너로 부터 필요한 객체를 가져와 사용할 수 있다.
    
-   
 2. **DI (Dependency Injection) 지원**
    
    - Spring은 설정 파일이나 어노테이션을 통해서 객체 간의 의존관계를 설정할 수 있도록 하고 있다.
-   
    
 3. **AOP (Aspect Oriented Programming) 지원**
    
    - Spring은 트랜잭션이나 로깅, 보안과 같이 공통적으로 필요로 하는 모듈들을 실제 핵심 모듈에서 분리해서 적용할 수 있다.
    
-   
 4. **POJO (Plain Old Java Object) 지원**
    
    - Spring 컨테이너에 저장되는 Java 객체는 특정한 인터페이스를 구현하거나, 특정 클래스를 상속받지 않아도 된다. 
    
-   
 5. **트랜잭션 처리를 위한 일괄된 방법을 지원**
    
    - JDBC, JTA 등 어떤 트랜잭션을 사용하던 설정을 통해 정보를 관리하므로 트랜잭션 구현에 상관없이 동일한 코드 사용가능.
-   
    
 6. **영속성(Persistence)과 관련된 다양한 API 지원**
    
@@ -92,19 +87,16 @@
   - 스프링이 IoC 방식으로 관리하는 객체라는 의미이다.
   - 스프링이 직접 생성과 제어를 담당하는 객체를 Bean이라고 부른다.
   
-  
 - **빈 팩토리(BeanFactory)**
-  
   - 스프링의 IoC를 담당하는 핵심 컨테이너를 가리킨다.
   - Bean을 등록, 생성, 조회, 반환하는 기능을 담당한다.
   - 이 BeanFactory를 바로 사용하지 않고 이를 확장한 ApplicationContext를 주로 이용한다.
-  
+  - getBean() 메서드가 정의되어 있다.
   
 - **애플리케이션 컨텍스트(ApplicationContext)**
   - BeanFactory를 확장한 IoC 컨테이너
   - Bean을 등록하고 관리하는 기능은 BeanFactory와 동일하지만 스프링이 제공하는 각종 부가 서비스를 추가로 제공한다. 
   - 스프링에서는 ApllicationContext를 BeanFactory보다 더 많이 사용한다.
-  
   
 - **설정 메타정보(Configuration metadata)**
   
@@ -119,15 +111,23 @@
   
   - 의존성을 입력 받는 setter 메서드를 만들고 이를 통해 의존성을 주입한다.
   
-  
 - **Constructor Injection :** 생성자를 이용한 의존성 삽입.
   
   - 필요한 의존성을 포함하는 클래스의 생성자를 만들고 이를 통해 의존성을 주입한다.
   
-  
 - **Method Injection :** 일반 메서드를 이용한 의존성 삽입.
-  
   - 의존성을 입력 받는 일반 메서드를 만들고 이를 통해 의존성을 주입한다.
+
+
+
+## Spring DI 컨테이너의 개념
+
+> Spring DI 컨테이너가 관리하는 객체를 <Span style="color : red"> **빈 (bean)**</span> 이라고 하고, 이 빈(bean)들을 관리한다는 의미로 컨테이너를  <Span style="color : red">**빈 팩토리 (BeabFactory)** </span>라고 부른다.
+
+- Bean Factory에 여러 가지 컨테이너 기능을 추가하여 <Span style="color : red">**애플리케이션 컨텍스트** </span>라고 부른다. 
+- 애플리케이션 컨텍스트가 빈 팩토리의 상위 개념이고, 빈 팩토리가 빈의 상위 개념이다. 
+
+
 
 
 
