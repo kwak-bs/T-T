@@ -26,15 +26,13 @@
 
 ## MyBatis와 MyBatis-Spring을 사용한 DB 액세스 Architecture
 
-![image-20200910005704115](C:\Users\iam_b\AppData\Roaming\Typora\typora-user-images\image-20200910005704115.png)
-
-
+![캡처1](https://user-images.githubusercontent.com/51367622/92624887-fa1e5f00-f302-11ea-9311-2a7747c2e0e1.PNG)
 
 <br/><br/>
 
 ## MyBatis3의 주요 컴포넌트
 
-![image-20200910005928042](C:\Users\iam_b\AppData\Roaming\Typora\typora-user-images\image-20200910005928042.png)
+
 
 | 컴포넌트                                | 설명                                                         |
 | --------------------------------------- | ------------------------------------------------------------ |
@@ -48,7 +46,7 @@
 
 ## MyBatis-Spring의 주요 컴포넌트
 
-![image-20200910010205654](C:\Users\iam_b\AppData\Roaming\Typora\typora-user-images\image-20200910010205654.png)
+![asdf](https://user-images.githubusercontent.com/51367622/92624961-102c1f80-f303-11ea-904a-7c3e9286a6d9.PNG)
 
 | 컴포넌트                            | 설명                                                         |
 | ----------------------------------- | ------------------------------------------------------------ |
@@ -62,7 +60,7 @@
 
 ##  Layered Architecture (계층화 아키텍처)
 
-![image-20200910010559945](C:\Users\iam_b\AppData\Roaming\Typora\typora-user-images\image-20200910010559945.png)
+![asg](https://user-images.githubusercontent.com/51367622/92625002-1de1a500-f303-11ea-8a19-5edf3c0fcc06.PNG)
 
 <br/><br/>
 
@@ -77,9 +75,7 @@
 
 ###  # Mapper 인터페이스를 사용하지 않았을 때
 
-
-
-![image-20200910010747853](C:\Users\iam_b\AppData\Roaming\Typora\typora-user-images\image-20200910010747853.png)
+![ag](https://user-images.githubusercontent.com/51367622/92625204-55505180-f303-11ea-850b-210a23c735df.PNG)
 
 - Mapper 인터페이스를 사용하지 않으면, SQL을 호출하는 프로그램은 SqlSession의 메서드의 아규먼트에 문자열로 **네임스페이스+”.”+SQL ID** 로 지정해야 한다.
 - 문자열로 지정하기 때문에 오타에 의해 버그가 숨어있거나, IDE에서 제공하는 code assist 를 사용할 수 없다.
@@ -88,7 +84,7 @@
 
 ### # Mapper 인터페이스를 사용하였을 때
 
-![image-20200910010852914](C:\Users\iam_b\AppData\Roaming\Typora\typora-user-images\image-20200910010852914.png)
+![asge](https://user-images.githubusercontent.com/51367622/92625075-3782ec80-f303-11ea-8fb5-db1a7e858fc7.PNG)
 
 - UserMapper 인터페이스는 개발자가 작성한다.
 - **패키지 이름+”.”+인터페이스 이름+”.”+메서드 이름**이 **네임스페이스+”.”+SQL ID가 되도록 네임스페이스와 SQL의 ID**를 설정해야 한다.
