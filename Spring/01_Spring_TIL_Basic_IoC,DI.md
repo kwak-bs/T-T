@@ -12,35 +12,35 @@
 >
 > 이는 <span style="color : blue"> Spring이 IOC 기반의 Framework</span>임을 의미한다
 
-
+<br/><br/>
 
 ##  Spring framework 특징 
 
 1. **컨테이너 역할**
-   
+
    - Spring 컨테이너는 Java 객체의 LifeCycle을 관리하며, Spring 컨테이너로 부터 필요한 객체를 가져와 사용할 수 있다.
-   
+
 2. **DI (Dependency Injection) 지원**
-   
+
    - Spring은 설정 파일이나 어노테이션을 통해서 객체 간의 의존관계를 설정할 수 있도록 하고 있다.
-   
+
 3. **AOP (Aspect Oriented Programming) 지원**
-   
+
    - Spring은 트랜잭션이나 로깅, 보안과 같이 공통적으로 필요로 하는 모듈들을 실제 핵심 모듈에서 분리해서 적용할 수 있다.
-   
+
 4. **POJO (Plain Old Java Object) 지원**
-   
+
    - Spring 컨테이너에 저장되는 Java 객체는 특정한 인터페이스를 구현하거나, 특정 클래스를 상속받지 않아도 된다. 
-   
+
 5. **트랜잭션 처리를 위한 일괄된 방법을 지원**
-   
+
    - JDBC, JTA 등 어떤 트랜잭션을 사용하던 설정을 통해 정보를 관리하므로 트랜잭션 구현에 상관없이 동일한 코드 사용가능.
-   
+
 6. **영속성(Persistence)과 관련된 다양한 API 지원**
-   
+
    - Spring은 MyBatis, Hibernate 등 데이터베이스 처리를 위한 ORM(Object Relational Mapping) 프레임워크들과의 연동 지원
 
-
+<br/><br/>
 
 ## 라이브러리와 프레임워크의 차이점 
 
@@ -54,7 +54,7 @@
 - 프레임워크의 라이브러리를 살펴볼 때도 적용된 패턴을 주목해서 살펴 본다면 그 구성을 이해할 수 있다.
 - 특히 프레임 워크를 확장하거나 커스터마이징 할 때는 프레임워크에 적용된 패턴에 대한 이해가 필요하다.
 
-
+<br/><br/>
 
 ## IoC (Inversion of Control)  ★★★★★
 
@@ -64,7 +64,7 @@
 
 
 
-
+<br/><br/>
 
 ## DI (Dependency Injection) - <em>IoC의 구성 요소중 하나!</em> ★★★★★
 
@@ -79,46 +79,46 @@
   - 코드가 단순해진다
   - 컴포넌트 간의 결합도가 제거된다.
 
-
+<br/><br/>
 
 ## Spring DI 용어 정리
 
 - **빈(Bean)** 
   - 스프링이 IoC 방식으로 관리하는 객체라는 의미이다.
   - 스프링이 직접 생성과 제어를 담당하는 객체를 Bean이라고 부른다.
-  
+
 - **빈 팩토리(BeanFactory)**
   - 스프링의 IoC를 담당하는 핵심 컨테이너를 가리킨다.
   - Bean을 등록, 생성, 조회, 반환하는 기능을 담당한다.
   - 이 BeanFactory를 바로 사용하지 않고 이를 확장한 ApplicationContext를 주로 이용한다.
   - getBean() 메서드가 정의되어 있다.
-  
+
 - **애플리케이션 컨텍스트(ApplicationContext)**
   - BeanFactory를 확장한 IoC 컨테이너
   - Bean을 등록하고 관리하는 기능은 BeanFactory와 동일하지만 스프링이 제공하는 각종 부가 서비스를 추가로 제공한다. 
   - 스프링에서는 ApllicationContext를 BeanFactory보다 더 많이 사용한다.
-  
+
 - **설정 메타정보(Configuration metadata)**
-  
+
   - ApplicationContext 또는 BeanFactory가 IoC를 적용하기 위해 사용하는 메타정보를 말한다.
   - 설정 메타정보는 IoC 컨테이너에 의해 관리되는 Bean 객체를 생성하고 구성할 때 사용된다.
 
-
+<br/><br/>
 
 ## DI의 유형
 
 - **Setter Injection :** Setter 메서드를 이용한 의존성 삽입.
-  
+
   - 의존성을 입력 받는 setter 메서드를 만들고 이를 통해 의존성을 주입한다.
-  
+
 - **Constructor Injection :** 생성자를 이용한 의존성 삽입.
-  
+
   - 필요한 의존성을 포함하는 클래스의 생성자를 만들고 이를 통해 의존성을 주입한다.
-  
+
 - **Method Injection :** 일반 메서드를 이용한 의존성 삽입.
   - 의존성을 입력 받는 일반 메서드를 만들고 이를 통해 의존성을 주입한다.
 
-
+<br/><br/>
 
 ## Spring DI 컨테이너의 개념
 
@@ -129,7 +129,7 @@
 
 
 
-
+<br/><br/><br/>
 
 ##### 출처
 
