@@ -10,7 +10,7 @@
 - DI에 필요한 적절한 setter 메서드 또는 constructor가 코드 내에 반드시 존재해야 한다.
 - 개발 중에는 어노테이션 설정방법을 사용했지만, 운영 중에는 관리의 편의성을 위해 XML설정으로 변경하는 전략을 쓸 수도 있다.
 
-
+<br/><br/>
 
 ## ＃ 전략(2) <Span style="color : red">어노테이션과 XML 설정 혼용해서 사용</span>
 
@@ -19,7 +19,7 @@
 - 어노테이션을 부여하고 자동 스캔으로 Bean을 등록하면 XML 문서 생성과 관리에 따른 수고를 덜어주고 개발 속도를 향상시킬 수 있다.
 - 애플리케이션에 등록될 Bean이 어떤 것들이 있고, Bean들 간의 의존관계가 어떻게 되는지를 한눈에 파악할 수 없다는 단점이 있다.
 
-
+<br/>
 
 ## ※ Bean 등록 Annotation
 
@@ -32,7 +32,7 @@
 
 - **@Repository, @Service, @Controller는 더 특정한 유즈케이스에 대한 @Component의 구체화된 형태이다.**
 
-
+<br/>
 
 ## ※ Bean 의존관계 주입 Annotation
 
@@ -56,7 +56,7 @@
   - @Qualifier는 @Autowired 어노테이션과 같이 사용되어 진다.
   - @Autowired는 타입으로 찾아서 주입하므로, 동일한 타입의 Bean객체가 여러 개 존재할 때 특정 Bean을 찾기 위해서는 @Qualifier를 같이 사용해야 한다.
 
-
+<br/>
 
 ## ※ Component Scan을 지원하는 태그
 
@@ -68,7 +68,7 @@
 
 - `<context:include-filter>`태그와 `<context:exclude-filter>`태그를 같이 사용하면 자동 스캔 대상에 포함시킬 클래스와 포함시키지 않을 클래스를 구체적으로 명시할 수 있다.
 
-
+<br/><br/>
 
 ## ＃ 전략(3) <Span style="color : red">어노테이션 설정 단독 사용 (ver3.0</span>) 
 
@@ -80,7 +80,7 @@
 
 
 
-
+<br/>
 
 ## ※ Bean 등록과 설정 Annotation
 
@@ -91,7 +91,7 @@
 
 - Spring의 새로운 자바 설정 지원의 핵심 부분은 @Configuration 어노테이션이 붙은 클래스이다. 이러한 클래스들은 스프링 IoC 컨테이너가 관리하는 객체의 인스턴스화, 설정, 초기화 로직을 정의하는 @Bean 어노테이션이 붙은 메서드들로 이루어져 있다. 
 
-
+<br/>
 
 
 
