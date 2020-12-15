@@ -20,7 +20,19 @@
 ![img](https://t1.daumcdn.net/cfile/tistory/9983A7335BD0156910)
 
 
-
+## 코드
+```java
+// dfs, 재귀, 인접 행렬, i 정점부터 시작한다. 
+public static void dfs(int i) {
+    visit[i] = true; 
+    System.out.print(i + " "); 
+    
+    for(int j=1; j<n+1; j++) { 
+        if(map[i][j] == 1 && visit[j] == false) {
+            dfs(j); } 
+    } 
+}
+```
 
 
 # BFS( 너비 우선 탐색 , Bread-First Search)
@@ -47,7 +59,26 @@
 
 ![img](https://t1.daumcdn.net/cfile/tistory/99960F405BD01A8D18)
 
-
+## 코드
+```java
+// bfs, q사용, 인접행렬, i 정점부터 시작한다. 
+public static void bfs(int i) { 
+	Queue<Integer> q = new LinkedList<>(); 
+	q.offer(i); 
+	visit[i] = true; 
+	
+	while(!q.isEmpty()) { 
+		int temp = q.poll(); 
+		System.out.print(temp + " ");
+        
+		for(int j=1; j<n+1; j++) { 
+			if(map[temp][j] == 1 && visit[j] == false) { 
+			q.offer(j); visit[j] = true; 
+			} 
+		} 
+	} 
+}
+```
 
 ## BFS와 DFS의 차이
 
