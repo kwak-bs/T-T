@@ -20,7 +20,7 @@ arrStr1의 경우 a, b, c, d, e가 정상적으로 배열에 저장된다. <br/>
 마지막의 빈 값도 배열에 저장하기 위해서는 JAVA 에서 제공하는 다음의 메소드를 사용해주면 된다.
 
 ```
-String[] split(String regex, ``int` `limit)
+String[] split(String regex, int limit)
 ```
 
 
