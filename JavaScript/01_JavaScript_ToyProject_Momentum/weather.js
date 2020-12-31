@@ -1,3 +1,5 @@
+const weather = document.querySelector(".js-weather");
+
 //OpenWeather API 키 가져옴
 const API_KEY = "b94dda977bd60bb0acb1bba7d9f2a81a";
 const COORDS = "coords";
@@ -13,7 +15,9 @@ function getWeather(lat, lon) {
     })
     .then(function (json) {
       // response.json()도 pending(대기) 완료 되면 json 불러옴.
-      console.log(json);
+      const temperature = json.main.temp; // 온도 저장
+      const place = json.name; // 위치 저장
+      weather.innerText = `${temperature} @ ${place}`; // span에 넣어주기
     });
 }
 
