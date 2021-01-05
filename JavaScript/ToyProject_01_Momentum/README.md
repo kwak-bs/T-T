@@ -18,5 +18,6 @@
 - Unsplash API 사용 (배경사진)
 - OpenWeather API 사용 (날씨)
 - LocalStorage 활용
+- gh-pages 배포
 
 [구경가기](https://kwak-bs.github.io/momentum/)
