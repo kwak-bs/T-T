@@ -6,14 +6,8 @@
 >
 
 
-- 문법 : ***class 자식클래스 extends 부모클래스{ ... }***
-- 자바에서의 상속은 단일 상속만 지원한다. 즉, 자식은 하나의 부모만 가질 수 있다.
-- 단일 상속의 제한점 극복 : interface 이용
-- 다중 상속을 허용하지 않는 이유 : 코드의 모호성 배제.
-- **장점**
-- 비슷한 유형의 코드 재사용
-  - 검증된 코드를 사용 -> 오류의 최소화
-  - 관련된 여러 클래스들의 공통점 통일화
+- ※ 참고 : A instanceof B - A가 B의 자식이거나 같은 class 타입이면 true, A가 B의 부모이면 false
+- reference 변수를 polymorphic하다고 할 수 있다.
 
 ![캡처](https://user-images.githubusercontent.com/51367622/93668792-f42a3a00-fac9-11ea-87a0-5f28b294acf0.PNG)
 
