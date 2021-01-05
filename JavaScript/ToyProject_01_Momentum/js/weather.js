@@ -28,7 +28,7 @@ function handleGeoSuccess(position) {
     longitude,
   };
   // 로컬스토리지에 저장
-  localStorage.setItem("coords", JSON.stringify(coords));
+  localStorage.setItem("coords", JSON.stringify(coordsObj));
   getWeather(coordsObj);
 }
 
