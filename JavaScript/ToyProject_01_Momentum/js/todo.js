@@ -19,8 +19,6 @@ function handleDelete(event) {
   toDos = toDos.filter(function (toDo) {
     //filter는 array의 모든 아이템을 통해 함수를 실행하고
     //true인 아이템들만 가지고 새로운 array를 만든다.
-    console.log(toDo.id);
-    console.log(toDoId);
     return toDo.id !== parseInt(toDoId) + 1; //toDoId는 0부터 기준이다. 근데 toDo.id는 1부터 id를 잡기 때문에 +1 해줘야한다.
   });
 
