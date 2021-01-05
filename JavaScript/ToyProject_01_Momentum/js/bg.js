@@ -16,11 +16,11 @@ function loadBackground() {
 
     // 파싱된 이미지에는 다음날이 저장되어 있는데,
     // 그 날보다 현재 날짜가 크면 이미지를 새로 받아옴
-    const today1 = today.getDate();
-    console.log(today1);
-    console.log(parsedImage.expiresOn);
-    if (today > parsedImage.expiresOn) {
-      console.log("나 들어옴");
+    const todayDay = today.getDate();
+    console.log(`현재 일은 : ${today1}`);
+    console.log(`만기 일은 : ${parsedImage.expiresOn}`);
+    if (todayDay > parsedImage.expiresOn) {
+      console.log("바뀔때가 됨. 나 들어옴");
       getBackground();
     } else {
       body.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(${parsedImage.url})`;
@@ -63,11 +63,11 @@ function saveBackground(imageUrl, city, country, name) {
   // 하루마다 배경사진 변경
   const expirationDate = new Date();
   expirationDate.setDate(expirationDate.getDate() + 1); // 다음 날
-  expirationDate1 = expirationDate.getDate();
-  console.log(expirationDate1);
+  expirationDateDay = expirationDate.getDate();
+  console.log(expirationDateDay);
   const imageObj = {
     url: imageUrl,
-    expiresOn: expirationDate,
+    expiresOn: expirationDateDay,
     city,
     country,
     name,
