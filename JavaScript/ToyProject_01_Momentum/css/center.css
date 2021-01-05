@@ -32,3 +32,9 @@
 .center .name {
   margin-bottom: 30px;
 }
+
+.Name__button {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 22px;
+}
