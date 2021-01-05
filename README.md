@@ -1,9 +1,28 @@
-# TIL
-Today I Learned
+# TIL - ToyProject
+#### 각 언어별로 공부한 내용과 혼자 진행했던 ToyProject 모음집입니다. 
 
-## Rule
-- 공유 및 공개 목적보다는 개인 공부에 초점을 두고 있습니다.
-- 1 Day 1 Commit의 주 재료 입니다.
-- 그날 배운 것은 바로바로 Commit 하기 위해 노력합니다. 
-- 많은 양을 바로 업로드 하는 것보다 적더라도 확실히 이해한 내용을 Commit하는 것이 목표입니다.
 
+
+## 설명
+- 공부한 내용을 까먹지 않기 위해 저장하고 있습니다. 
+- 진행한 ToyProject들을 언어 별로 정리하고 저장하고 있습니다. 
+- 꾸준히, 묵묵히 진행하는 것이 목표입니다. 
+
+## 폴더 구조
+
+```
+.
++-- JavaScript
+|   +-- ToyProject_01_Momentum
+|       +-- css
+|       +-- js
+|       -- index.html
+|       -- README.md
+|   -- TIL_01_자바스크립트란.md           
+|                 :
+|                 :
++-- Java
++-- React
+     :
+     :
+```
