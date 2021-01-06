@@ -17,9 +17,9 @@ function loadBackground() {
     // 파싱된 이미지에는 다음날이 저장되어 있는데,
     // 그 날보다 현재 날짜가 크면 이미지를 새로 받아옴
     const todayDay = today.getDate();
-    console.log(`현재 일은 : ${today1}`);
+    console.log(`현재 일은 : ${todayDay}`);
     console.log(`만기 일은 : ${parsedImage.expiresOn}`);
-    if (todayDay > parsedImage.expiresOn) {
+    if (todayDay === parsedImage.expiresOn) {
       console.log("바뀔때가 됨. 나 들어옴");
       getBackground();
     } else {
