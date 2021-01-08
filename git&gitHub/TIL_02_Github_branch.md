@@ -30,17 +30,31 @@ hotfixes(supporting) | * 긴급하게 반영 해야하는 bug fix <br/>* release
 ```
 
 ### (4) 브랜치 목록 
+
 ```bash
-(master) $ git branch
+(master) $ git branch // 로컬 브랜치 목록
 ```
 
-### (5) 브랜치 삭제
 ```bash
-(master) $ git branch -d {branch name}
+(master) $ git branch -r // 원격 브랜치 목록
 ```
+
+
+
+### (5) 브랜치 삭제
+
+```bash
+(master) $ git branch -d {branch name} // 로컬 삭제 
+```
+
+```bash
+(master) $ git branch -d {branch name} // 원격 삭제 
+```
+
 
 
 ## 3. Branch merge
+
 > Git에서 한 브랜치에서 다른 브랜치로 합치는 방법으로는 두 가지가 있다. 하나는 Merge이고 다른 하나는 Rebase이다. <br/>각 branch에서 작업을 한 이후 이력을 합치기 위해서는 일반적으로 merge 명령을 사용한다. 병합을 진행할 때, 만약 서로 다른 이력(commit)에서 동일한 파일을 수정한 경우 충돌이 발생할 수 있다.<br /> 충돌이 발생한 것은 오류가 발생한 것이 아니라 이력이 변경되는 과정에서 반드시 발생할 수 있는 것이다. 
 
 
