@@ -48,7 +48,7 @@ hotfixes(supporting) | * 긴급하게 반영 해야하는 bug fix <br/>* release
 ```
 
 ```bash
-(master) $ git branch -d {branch name} // 원격 삭제 
+(master) $ git push origin --delete {branch name} // 원격 삭제 
 ```
 
 
