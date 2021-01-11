@@ -1,4 +1,4 @@
-# useEffect
+# useClick
 
 ```react
 import React, { useState, useEffect, useRef } from "react";

@@ -1,4 +1,4 @@
-# useEffect
+# useTitle
 
 ```react
 import React, { useState, useEffect } from "react";

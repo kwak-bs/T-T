@@ -1,4 +1,4 @@
-# useInput
+# useTab
 
 ```react
 import React, { useState } from "react";
