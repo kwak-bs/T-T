@@ -19,7 +19,7 @@ function loadBackground() {
     const todayDay = today.getDate();
     console.log(`현재 일은 : ${todayDay}`);
     console.log(`만기 일은 : ${parsedImage.expiresOn}`);
-    if (todayDay === parsedImage.expiresOn) {
+    if (todayDay >= parsedImage.expiresOn) {
       console.log("바뀔때가 됨. 나 들어옴");
       getBackground();
     } else {
