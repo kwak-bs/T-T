@@ -1,0 +1,52 @@
+.detail {
+  width: 70%;
+  position: relative;
+  left: 10rem;
+  top: 1rem;
+  background-color:white;
+  text-align: center;
+  padding: 3.5rem;
+  padding-top: 5rem;
+  color: #0d0e0f;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+  0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  font-weight: 300;
+  border-radius: 10px;
+}
+
+.detail img {
+  position: relative;
+  top: -50px;
+  max-width: 200px;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.detail__title{
+  margin: 0;
+  margin-bottom: 10px;
+  color: #2c2c2c;
+}
+
+.detail__year{
+  margin: 0;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.detail__genres {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0px;
+  font-size: smaller;
+}
+
+.detail__genres li,
+.detail__year {
+  color: rgb(51, 49, 49);
+}
+
+.detail__summary {
+  color:black;
+  font-family: -webkit-pictograph;
+}
