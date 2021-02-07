@@ -139,3 +139,28 @@ console.log(sliced); // [10, 20] 출력. (삭제된 원소들 출력)
 console.log(numbers); // [10, 20, 30, 40] 출력. (그대로 유지)
 ```
 
+
+
+## concat, join
+
+> **concat** : 두 배열을 합쳐준다. 
+>
+> **join** : 배열을 String으로 변환해준다.
+
+```javascript
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+
+const concated = arr1.concat(arr2);
+// 스프레드 연산자 사용해서 const concated = [...arr1, ...arr2];도 가능하다.
+console.log(concated);
+// [1, 2, 3, 4, 5, 6] 출력.
+
+
+const array = [1, 2, 3, 4, 5];
+
+console.log(array.join()); // 1,2,3,4,5 출력.
+console.log(array.join(' ')); // 1 2 3 4 5 출력.
+console.log(array.join(', ')); // 1, 2, 3, 4, 5 출력.
+```
+
