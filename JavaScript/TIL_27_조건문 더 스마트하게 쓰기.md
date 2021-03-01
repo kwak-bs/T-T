@@ -83,12 +83,7 @@ function makeSound(animal) {
         비둘기() {
             console.log('구구 구 구');
         }
-    };
-    if(!tasks[animal]) {
-        console.log('...?');
-        return;
-    }
-    
+    };    
     const task = task[animal];
     if (!task) {
         console.log('...?');
