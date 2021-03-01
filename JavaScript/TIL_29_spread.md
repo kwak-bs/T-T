@@ -1,6 +1,8 @@
 # spread 
 
 > 기존의 객체 혹은 값을 참조해서 새로운 객체를 만들고 싶을 때 사용하는 연산자이다.
+>
+> 함수 인자, 배열 혹은 객체에서 사용가능하다
 
 
 
@@ -55,5 +57,34 @@ const numbers = [1, 2, 3, 4, 5];
 const spreadNumbers = [...numbers, 1000, ...numbers];
 console.log(spreadNumbers);
 // [1,2,3,4,5,1000,1,2,3,4,5] 출력.
+```
+
+
+
+### 함수 인자에서의 spread
+
+> 먼저 인자와 파라미터의 차이를 코드로 확인하자 
+
+```javascript
+// 함수로 받아주는 요소들 (x, y)가 파라미터이다.
+function subtract(x, y)) {
+    return x - y;
+}
+
+const result = subtract(1, 2); // 함수로 넣어주는 요소들 (1, 2)가 인자이다. 
+```
+
+
+
+이런식으로 사용 가능하다.
+
+```javascript
+function sum (...rest) {
+
+    return rest.reduce((acc, current) => acc + current, 0); 
+}
+
+const numbers = [1,2,3,4,5,6,7,8];
+console.log(sum(...numbers)); // 36 출력.
 ```
 
