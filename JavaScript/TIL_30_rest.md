@@ -8,7 +8,7 @@
 >
 > rest는 객체, 배열 등이 퍼져있는 것을 모아오는 역할을 한다.
 >
-> 함수의 파라미터에서 사용할 수 있다. 
+> 함수의 파라미터 혹은 객체, 배열에서 사용할 수 있다. 
 
 ```javascript
 const purpleCuteSlime = {
@@ -44,5 +44,19 @@ const [...rest, last] = numbers;
 위 코드는 할 수 없다. rest 연산자를 처음부터 쓰고 그 이후로 따로따로는 안된다.
 배열에서의 rest 연산자는 맨 마지막에 와야한다.
 */
+```
+
+
+
+### 함수 파라미터에서의 rest 
+
+```javascript
+// rest 연산자를 활용하여 하나의 배열로 받아온다.
+function sum (...rest) {
+    // reduce 내장 함수를 이용하여 합을 출력한다.
+    return rest.reduce((add, current) => acc + current, 0); 
+}
+
+console.log(sum(1,2,3,4,5,6,8)); // 36 출력.
 ```
 
