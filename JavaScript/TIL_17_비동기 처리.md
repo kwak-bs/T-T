@@ -4,7 +4,7 @@
 >
 >**비동기적 (Asynchronous)** : 작업의 흐름이 멈추는 일 없이 동시에 모든 작업을 처리할 수 있음. 기다리는 과정에서도 다른 함수를 호출할 수 있음.
 
-![sync, async](https://user-images.githubusercontent.com/51367622/106598115-a7d42800-659a-11eb-929f-6260b2f62274.PNG)
+![sync, async](C:\Users\iam_b\Desktop\공부\106598115-a7d42800-659a-11eb-929f-6260b2f62274.PNG)
 
 ## 동기
 
