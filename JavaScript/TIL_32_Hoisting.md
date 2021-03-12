@@ -2,8 +2,6 @@
 
 > hoisting이란 자바스크립트에서 아직 선언되지 않은 함수 혹은 변수를 끌어올려서 사용할 수 있는 자바스크립트의 작동 방식을 의미한다.
 
-
-
 ```javascript
 myFunction();
 
@@ -16,7 +14,9 @@ function myFunction() {
 
 
 
-### 하지만 hoisting은 웬만하면 피해야 한다.  hoisting은 방지해야 하는 것이다. 
+### 하지만 hoisting은 웬만하면 피해야 한다. 
+
+### hoisting은 방지해야 하는 것이다. 
 
 그 이유는 코드를 이해하기가 어려워 질 수 있기 때문이다. 
 
