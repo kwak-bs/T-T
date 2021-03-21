@@ -42,7 +42,7 @@ increaseAndPrint(0, n => {
 
 ### Promise를 사용하여 callback 지옥을 탈출해보자.
 
-#### Promise를 만드는 법부터 알아보자.
+#### Promise를 만드는 법.
 
 ```javascript
 // Promise가 성공할 때는 resolve를 호출하고 실패할 경우에는 reject를 호출한다.
