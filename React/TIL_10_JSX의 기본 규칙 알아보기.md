@@ -169,10 +169,11 @@ function App() {
     return (
         <> 
         {/* 어쩌구 저쩌구 주석~~*/}
-    		<Hello />
+    		<Hello
+                // 이것도 주석입니다~~ 태그는 열리는 부분에서 작성할 것!
+                />
         	<div style={style}>{name}</div> 
         	<div className="gray-box"></div> 
-        // 이것도 주석입니다~~
     	</>
     ); 
 }
