@@ -10,7 +10,7 @@ JavaScript를 사용하여 DOM을 변형하기 위해서는  브라우저의 DOM
 
 조금 과장을 하자면, 코드는 이런 형태가 될 것이다. 
 
-![image](https://user-images.githubusercontent.com/51367622/112239668-3fe0ba80-8c8a-11eb-931c-351dc894953b.png)
+![image](C:\Users\iam_b\Desktop\112239668-3fe0ba80-8c8a-11eb-931c-351dc894953b.png)
 
 이런 식으로 여기 저기서 서로를 참조하게 되고 유지보수 하기 힘들어지는 코드가 만들어진다.  
 
@@ -30,7 +30,7 @@ JavaScript를 사용하여 DOM을 변형하기 위해서는  브라우저의 DOM
 
 <br/>
 
-![image](https://user-images.githubusercontent.com/51367622/112239719-54bd4e00-8c8a-11eb-9fcb-887aa9963d76.png)
+![image](C:\Users\iam_b\Desktop\112239719-54bd4e00-8c8a-11eb-9fcb-887aa9963d76.png)
 
 **React**에서는 상태가 업데이트되면 업데이트가 필요한 UI를 메모리에 있는 **Virtual DOM**에다가 렌더링을 한다.  그리고 React 개발팀이 만든 매우 효율적인 비교 알고리즘을 사용하여 실제 브라우저에서 보여지고 있는 DOM과 Virtual 메모리에 있는 DOM을 비교 후 차이점을 감지하고 나서 실제 DOM에다가 **Patch**(변화를 반영시킨다.) 한다. 
 
