@@ -165,6 +165,8 @@ export default Hello;
 
 부모 컴포넌트인 App.js에서 color="pink" 값만 가지고 name 값은 없는 Hello 컴포넌트를 호출해보자.
 
+**App.js**
+
 ```react
 import React from "react";
 import Hello from "./Hello";
