@@ -58,7 +58,7 @@ export default Counter;
 
 ```
 
-(1) `const [number, setNumber] useState(0)`
+(1) `const [number, setNumber] = useState(0)`
 
 위 코드를 분석해보자면, 
 
