@@ -80,7 +80,7 @@ const setNumber = numberState[1];
 
 두 번째 원소를 setNumber란 이름으로 추출하겠다는 것이다. 
 
-
+<br/>
 
 (2) `setNumber( (prevNumber) => prevNumber - 1);` 
 
@@ -88,7 +88,7 @@ const setNumber = numberState[1];
 
 여러가지 방법이 있으니 참고로 알아두면 된다. 함수형 업데이트는 훗날 최적화란 관련이 있으니 알아두면 좋을것이다. 
 
-
+<br/>
 
 (3) `onClick={onIncrease}` 
 
