@@ -54,6 +54,8 @@ export default Hello;
 
 하지만 falsy한 값인 {0}만 0을 렌더링한다.
 
+아래는 렌더링 결과 화면이다.
+
 ![image](https://user-images.githubusercontent.com/51367622/112598404-df03de80-8e51-11eb-8e2e-cc844ec910cf.png)
 
 
