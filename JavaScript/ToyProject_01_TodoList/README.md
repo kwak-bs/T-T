@@ -5,7 +5,7 @@
 >
 > 투두리스트 챌린지 출전해보았습니다. (2021.02.16)
 
-[구경가기](https://kwak-bs.github.io/momentum/)
+[구경가기(배포)](https://kwak-bs.github.io/TodoList/)
 [레포지토리 이동](https://github.com/kwak-bs/momentum)
 
 #### 결과물1
