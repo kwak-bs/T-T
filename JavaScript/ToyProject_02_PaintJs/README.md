@@ -20,4 +20,6 @@
 - Canvas tag 및 내장 함수 사용
 - gh-pages 배포
 
-[구경가기](https://kwak-bs.github.io/PaintJs/)
+[구경가기(배포)](https://kwak-bs.github.io/PaintJs/)
+
+[레포지토리 이동](https://github.com/kwak-bs/PaintJs)
