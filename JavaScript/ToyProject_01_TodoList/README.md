@@ -18,7 +18,7 @@
 
 #### 결과물3
 
-![image-20210406210813511](C:\Users\iam_b\AppData\Roaming\Typora\typora-user-images\image-20210406210813511.png)
+![image](https://user-images.githubusercontent.com/51367622/113708665-7b649580-971c-11eb-94da-423436956ce3.png)
 
 
 
