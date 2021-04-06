@@ -1,7 +1,7 @@
 # TIL - ToyProject
-#### 각 언어별로 공부한 내용(TIL)과 혼자 진행했던 ToyProject 모음집입니다. <br/>TT는 TIL과 ToyProject의 앞글자를 가져와서 네이밍 하였습니다.
-
-<br/>
+> 각 언어별로 공부한 내용(TIL)과 혼자 진행했던 ToyProject 모음집입니다. 
+>
+> TT는 TIL과 ToyProject의 앞글자를 가져와서 네이밍 하였습니다.
 
 <br/>
 
