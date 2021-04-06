@@ -14,11 +14,11 @@
 
 #### 결과물2
 
-![결과물2](https://user-images.githubusercontent.com/51367622/107965895-702f9c00-6fee-11eb-803d-c16fa2d63956.PNG)
+![image](https://user-images.githubusercontent.com/51367622/113708284-ff6a4d80-971b-11eb-8403-09eaabdfe4dc.png)
 
 #### 결과물3
 
-![결과물3](https://user-images.githubusercontent.com/51367622/107965990-95bca580-6fee-11eb-9b50-a3f16bf6b317.PNG)
+![image-20210406210813511](C:\Users\iam_b\AppData\Roaming\Typora\typora-user-images\image-20210406210813511.png)
 
 
 
