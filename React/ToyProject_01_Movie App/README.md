@@ -9,7 +9,9 @@ React.js로 만든 Movie App 토이 프로젝트.
 
 기본 메인화면입니다. 
 
-![image-20210407164246321](C:\Users\iam_b\AppData\Roaming\Typora\typora-user-images\image-20210407164246321.png)
+![image](https://user-images.githubusercontent.com/51367622/113829733-cd5ef700-97c0-11eb-8f2d-001e266ca0ca.png)
+
+
 
 
 
