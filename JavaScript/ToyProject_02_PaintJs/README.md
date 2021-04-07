@@ -1,6 +1,12 @@
 # PaintJs
 바닐라 자바스크립트로 만든 그림판 토이 프로젝트. (노마드 코더 클론 코딩)
 
+## 결과화면
+
+![image](https://user-images.githubusercontent.com/51367622/113828280-2ded3480-97bf-11eb-8f21-69fcecc68f0b.png)
+
+
+
 ## 기능
 
 - Paint
