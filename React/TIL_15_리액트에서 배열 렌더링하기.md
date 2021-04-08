@@ -2,7 +2,7 @@
 
 
 
-#### sample.js
+### sample.js
 
 ```react
 const users = [
@@ -28,7 +28,7 @@ const users = [
 
 
 
-#### UserList.js
+### UserList.js
 
 ```react
 import React from 'react';
