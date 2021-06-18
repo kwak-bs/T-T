@@ -65,7 +65,6 @@ public class BOJ_2003 {
 		int sum = 0;
 		int answer = 0;
 		while(true) {
-			
 			if(sum >= m) {
 				sum -= arr[l++];
 			}
@@ -73,7 +72,6 @@ public class BOJ_2003 {
 			else if(sum < m) {
 				sum += arr[r++];
 			}
-			
 			if(sum == m) {
 				answer++;
 			}
