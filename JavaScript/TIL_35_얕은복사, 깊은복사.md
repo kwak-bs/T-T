@@ -43,15 +43,15 @@ console.log(a); // {number: 2}
 console.log(b); // {number: 2}
 ```
 
+<br/>
 
-
-
+<br/>
 
 ## 얕은 복사 Shllow Copy
 
 > **얕은 복사**란 객체를 복사할 때 위의 예제처럼 원래값과 복사된 값이 같은 참조를 가리키고 있는 것을 말한다. 객체 안에 객체가 있을 경우 한 개 의 객체라도 원본 객체를 참조하고 있다면 이를 얕은 복사라고 한다. 
 
-
+<br/>
 
 ### 1. Array.prototype.slice
 
@@ -93,7 +93,7 @@ console.log(arr);
 
 copied가 복사된 객체라 기존 arr와 아무런 연관이 없어야하지만 중첩된 구조를 변경하면 원본과 복사본 모두 영향을 받는다. 즉, `Array.prototype.slice()`는 얕은 복사를 수행하기 때문에, 모든 값을 독립적으로 복사할 수 없다. 
 
-
+<br/>
 
 ### 2. Object.assign()
 
@@ -125,7 +125,7 @@ MDN에는 `Object.assign()`에 대해 이렇게 설명했다.
 > 깊은 복사의 경우 Object.assign ()이 속성 값을 복사하기 때문에 대안을 사용해야합니다. 원본 값이 개체에 대한 참조 인 경우 해당 참조 값만 복사합니다.
 > ```
 
-
+<br/>
 
 ### 3. 전개 연산자
 
@@ -147,9 +147,9 @@ obj === copiedObj // false
 obj.b.c === copiedObj.b.c // true
 ```
 
+<br/>
 
-
-
+<br/>
 
 ## 깊은 복사 Deep Copy
 
@@ -159,7 +159,7 @@ obj.b.c === copiedObj.b.c // true
 
 ***하지만 분명히 얕은 복사를 하는 목적은 존재할 것이다. 내가 아직 모를 뿐..***
 
-
+<br/>
 
 ### 1. JSON.parse && JSON.stringify
 
@@ -177,7 +177,7 @@ copied[2].push(5);
 checker(arr, copied); // false
 ```
 
-
+<br/>
 
 ### 2. 재귀함수를 이용한 복사
 
@@ -212,7 +212,7 @@ copiedObj.b.c = 3
 obj.b.c === copiedObj.b.c //false 
 ```
 
-
+<br/>
 
 ### 3. 라이브러리 사용
 
