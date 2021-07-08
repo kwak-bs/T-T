@@ -103,18 +103,19 @@ copied가 복사된 객체라 기존 arr와 아무런 연관이 없어야하지�
 
 ```javascript
 const object = {
-  a: 1,
-  b: {
-    c: 2,
-  },
+	a: "a",
+	number: {
+		one: 1,
+		two: 2,
+	},
 };
 
-const copiedObj = Object.assign({}, object);
+const copy = Object.assign({}, object);
+copy.number.one = 3;
 
-copiedObj.b.c = 3
+console.log(object === copy); // false
+console.log(object.number.one === copy.number.one); // true
 
-obj === copiedObj // false
-obj.b.c === copiedObj.b.c // true
 ```
 
  복사된 객체 `copiedObj` 자체는 기존 `object`와 다른 객체지만 그 안에 들어가 있는 값은 기존 `object`안의 값과 같은 참조값을 가리키고 있다. 
@@ -236,5 +237,3 @@ copiedObj.b.c = 3
 
 obj.b.c === copiedObj.b.c //false
 ```
-
-h
