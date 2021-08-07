@@ -6,6 +6,8 @@
 ---
 🧐[노션 미팅 로그](https://first-english-d5d.notion.site/d789f1ad2e434084be98bb6c54a006b2)에서 더 다양한 개발 과정을 확인해보세요!
 
+🎈[레포지토리 가기](https://github.com/six-sense/jaranda)
+
 ---
 
 <br/>
