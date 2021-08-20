@@ -12,6 +12,8 @@
 
 🚀[개인(포크) 레포지토리 가기](https://github.com/kwak-bs/jaranda/tree/main/src/Pages)
 
+⏳ [Blog 리뷰 보러가기](https://bbangson.tistory.com/83)
+
 ---
 
 <br/>
