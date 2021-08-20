@@ -119,16 +119,16 @@
 ## 📂프로젝트 구조
 
 
-| 폴더 / 파일 | 설명                                    |
-| ----------- | --------------------------------------- |
-| Assets      | jaranda 로고 및 아이콘.                 |
-| Components  | 각 Page에 다수 사용되는 Component 모음. |
-| Modal       | 팝업창 Modal.                           |
-| Pages       | Route를 위한 Page 목록.                 |
-| Services    | 권한별 인가 책정.                       |
-| Styles      | 기본 공통 Style.                        |
-| Utils       | localStorage 접근 및 공통 함수.         |
-| App.js      | public, private Route 정리.             |
-| routes.js   | 계정별 페이지 권한 구분.                |
+| 폴더 / 파일 | 설명                                      |
+| ----------- | ----------------------------------------- |
+| Assets      | jaranda 로고 및 아이콘.                   |
+| Components  | 각 Page에서 자주 사용되는 Component 모음. |
+| Modal       | 팝업창 Modal.                             |
+| Pages       | Route를 위한 Page 목록.                   |
+| Services    | 권한별 인가 책정.                         |
+| Styles      | 기본 공통 Style.                          |
+| Utils       | localStorage 접근 및 공통 함수.           |
+| App.js      | public, private Route 정리.               |
+| routes.js   | 계정별 페이지 권한 구분.                  |
 
 <br/>
