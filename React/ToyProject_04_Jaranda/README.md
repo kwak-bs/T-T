@@ -6,7 +6,11 @@
 ---
 🧐[노션 미팅 로그](https://first-english-d5d.notion.site/d789f1ad2e434084be98bb6c54a006b2)에서 더 다양한 개발 과정을 확인해보세요!
 
-🎈[레포지토리 가기](https://github.com/six-sense/jaranda)
+🛠[[개인 과제] 리팩토링 로그](https://green-chipmunk-3f6.notion.site/Jaranda-915618537fb044b8b241fbe7dfe23ced)에서 개인적으로 진행한 리팩토링 내용을 볼 수 있습니다.
+
+🎈[팀 레포지토리 가기](https://github.com/six-sense/jaranda)
+
+🚀[개인(포크) 레포지토리 가기](https://github.com/kwak-bs/jaranda/tree/main/src/Pages)
 
 ---
 
@@ -115,16 +119,16 @@
 ## 📂프로젝트 구조
 
 
-| 폴더 / 파일 | 설명                               |
-| ----------- | ---------------------------------- |
-| Assets      | jaranda 로고 및 아이콘.            |
-| Components  | 각 Page에 사용되는 Component 모음. |
-| Modal       | 팝업창 Modal.                      |
-| Pages       | Route를 위한 Page 목록.            |
-| Services    | 권한별 인가 책정.                  |
-| Styles      | 기본 공통 Style.                   |
-| Utils       | localStorage 접근 및 공통 함수.    |
-| App.js      | public, private Route 정리.        |
-| routes.js   | 계정별 페이지 권한 구분.           |
+| 폴더 / 파일 | 설명                                    |
+| ----------- | --------------------------------------- |
+| Assets      | jaranda 로고 및 아이콘.                 |
+| Components  | 각 Page에 다수 사용되는 Component 모음. |
+| Modal       | 팝업창 Modal.                           |
+| Pages       | Route를 위한 Page 목록.                 |
+| Services    | 권한별 인가 책정.                       |
+| Styles      | 기본 공통 Style.                        |
+| Utils       | localStorage 접근 및 공통 함수.         |
+| App.js      | public, private Route 정리.             |
+| routes.js   | 계정별 페이지 권한 구분.                |
 
 <br/>
