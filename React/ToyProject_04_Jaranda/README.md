@@ -10,7 +10,7 @@
 
 🎈[팀 레포지토리 가기](https://github.com/six-sense/jaranda)
 
-🚀[개인(포크) 레포지토리 가기](https://github.com/kwak-bs/jaranda/tree/main/src/Pages)
+🚀[개인(포크) 레포지토리 가기](https://github.com/kwak-bs/jaranda)
 
 ⏳ [Blog 리뷰 보러가기](https://bbangson.tistory.com/83)
 
