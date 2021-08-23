@@ -6,11 +6,11 @@
 
 ---
 
-#### 🚀[Repository](https://github.com/kwak-bs/wanted_hayanmind)
-
+#### 🚀[Blog](https://bbangson.tistory.com/92) 포스팅 보러가기
+#### 🧐 [repository](https://github.com/kwak-bs/wanted_hayanmind) 보러가기
 ---
 
-
+<br/>
 
 ## 📌 프로젝트 소개
 
@@ -27,8 +27,9 @@
     <div markdown="1">
 <h4>1. Implement the user's comment data list with infinite scrolling by getting more 10 comments repeatedly.</h4>
 <h4>2. Data API</h4>
+<pre>
    - The user's dummy comment data can be called through the API below.<br/>
-   		<pre/>- https://jsonplaceholder.typicode.com/comments<br/>
+   		- https://jsonplaceholder.typicode.com/comments<br/>
    - The following parameters are supported:<br/>
      	- <code>_page</code><br/>
        		- it starts at 1.<br/>
@@ -46,7 +47,7 @@
        "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\\ntempora quo necessitatibus\\ndolor quam autem quasi\\nreiciendis et nam sapiente accusantium"
      }, 
    ]
-   </code><br/>
+   </code><br/></pre>
 <h4>3. You can use id as comment id, email as user's email and body as comment text</h4>
 <h4>4. Please look at the following design guide link and reflect the design. </h4>
    - https://www.figma.com/file/T9P3B5qjnTqhWi1Ou5BmIL/HayanMind-FrontEnd-TA<br/>
@@ -55,6 +56,11 @@
 </div>
 </details>
 
+<br/>
+
+## 📽 시연 영상
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/51367622/130284641-d3c9ac2f-90d9-4fec-a1f4-7f593c0c89c6.gif)
 
 <br/>
 
@@ -67,12 +73,6 @@
 ### 실행
 
 `yarn start`
-
-<br/>
-
-## 📽 시연 영상
-
-<img src = "https://user-images.githubusercontent.com/51367622/127190596-29c73c04-354d-4e2d-a01a-10dc3d371134.gif" >
 
 <br/>
 
