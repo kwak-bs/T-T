@@ -6,13 +6,12 @@
 >
 > 그 이유는 Babel이라는 도구를 사용하여 XML 코드가 JavaScript로 변환되기 때문이다. 
 >
-> 하지만 XML 코드가 JavaScript로 잘 변환되기 위해서는 몇 가지 규칙이 있다.
 
 
 
-```markdown
-1. 태그는 무조건 닫혀있어야 한다. ex) <div> ~~~ </div>
-```
+
+#### 1. 태그는 무조건 닫혀있어야 한다. ex) <div> ~~~ </div>
+
 
 `<br/>`, `<input />` 같은 self-closing 태그로도 사용 가능하다. 
 
@@ -20,9 +19,9 @@
 
 
 
-```markdown
-2. 두 개의 이상의 태그는 꼭 하나의 태그로 감싸있어야한다. 
-```
+
+#### 2. 두 개의 이상의 태그는 꼭 하나의 태그로 감싸있어야한다. 
+
 
 ```react
 import React from 'react';
@@ -48,7 +47,7 @@ function App() {
 }
 ```
 
-하지만 단순히 두 개 이상의 태그를 감싸기위해 불필요한 `<div>` 태그를 사용하는 것이 맘에 안들수도 있다. 그럴땐 **fragment <>**를 사용하면 된다. 
+하지만 단순히 두 개 이상의 태그를 감싸기위해 불필요한 `<div>` 태그를 사용하는 것이 맘에 안들수도 있다. 그럴땐  **fragment <>** 를 사용하면 된다. 
 
 ```react
 function App() {
@@ -66,11 +65,15 @@ function App() {
 추가적으로 return 뒤에 ()는 코드의 가독성 때문에 사용한 것이다. 없어도 무방함.  
 
 
+#### 3. jsx를 사용하는 scope 내에 react가 import 되어야 한다. 
+
+#### 4. 컴포넌트는 대문자로 시작해야 한다. 
+> html 문법과 혼동될 수 있기 때문에! 
 
 
 
 ```markdown
-3. jsx 내부에서 JavaScript 값을 사용하는 방법을 알아보자 
+jsx 내부에서 JavaScript 값을 사용하는 방법을 알아보자 
 ```
 
 중괄호로 감싸주면 된다!
@@ -94,7 +97,7 @@ function App() {
 
 
 ```markdown
-4. Style과 ClassName을 설정하는 방법을 알아보자.
+ Style과 ClassName을 설정하는 방법을 알아보자.
 ```
 
 #### **Style 설정 방법**
@@ -153,7 +156,7 @@ className으로 작성하는 것을 잊지말자.
 
 
 ```markdown
-5. jsx 안에서 주석을 작성하는 법을 알아보자 
+jsx 안에서 주석을 작성하는 법을 알아보자 
 ```
 
 ```react
@@ -178,3 +181,4 @@ function App() {
     ); 
 }
 ```
+
