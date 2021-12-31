@@ -26,3 +26,14 @@ export default function App() {
 
 ```
 
+
+
+
+
+
+
+### 주의 사항
+
+- `deps` 배열에 최소 하나 이상의 `state`가 의존될 경우는 `useEffect`를 여러 개 사용하는 것이 나을 수 있습니다.
+  -  관심사를 분리하는 목적입니다. (Multiple Effect)
+
