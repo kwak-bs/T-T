@@ -1,13 +1,15 @@
 # TIL - ToyProject
-> 각 언어별로 공부한 내용(TIL)과 혼자 진행했던 ToyProject 모음집입니다. 
+> 각 언어별로 **공부한 내용(TIL)**과 혼자 진행했던 **ToyProject** 모음집입니다. 
 >
-> TT는 TIL과 ToyProject의 앞글자를 가져와서 네이밍 하였습니다.
+> `TT`는 **T**IL과 **T**oyProject의 앞글자를 가져와서 네이밍 하였습니다.
 
 <br/>
 
 ## 설명
-- 진행한 ToyProject와 공부한 내용들을 언어 별로 정리하고 저장하고 있습니다. 
-- TT 레포지토리 안에 있는 ToyProject는 `README.md` 파일만 존재합니다.<br/>ToyProject의 코드는 따로 Repository에 관리하고 있습니다. <br/>쉽게 이동할 수 있도록 `README.md` 파일 안에 링크를 걸어놓았습니다.
+- 진행한 **ToyProject**와 **공부한 내용**들을 언어 별로 정리하고 기록하고 있습니다. 
+- TT 레포지토리 안에 있는 ToyProject는 `README.md` 파일만 존재합니다.
+  - ToyProject의 코드는 따로 Repository에 관리하고 있습니다. 
+  - 쉽게 이동할 수 있도록 `README.md` 파일 안에 링크를 걸어놓았습니다.
 - TIL은 반복적으로 자주 보기위해 짧게 짧게 내용을 작성하고자 하였습니다. 
 
 <br/>
