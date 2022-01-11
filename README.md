@@ -1,5 +1,5 @@
 # TIL - ToyProject
-> 각 언어별로 **공부한 내용(TIL)**과 혼자 진행했던 **ToyProject** 모음집입니다. 
+> 각 언어별로 **공부한 내용(TIL)** 과 혼자 진행했던 **ToyProject** 모음집입니다. 
 >
 > `TT`는 **T**IL과 **T**oyProject의 앞글자를 가져와서 네이밍 하였습니다.
 
@@ -14,10 +14,8 @@
 
 <br/>
 
-## Commit Message 규칙 (2021.04.06 이후 적용)
+## Commit Message 규칙 
 
-> 2021.04.06 이전 `Commit Message`는 규칙에 따라 작성하지 않았습니다. 
->
 > ##### - 헤더
 >
 > [TYPE] : [날짜] (개요 || 간단 설명)
@@ -56,6 +54,7 @@ PROJECT : 2021.04.06 React ToyProject
 - 새로 배운 내용을 추가하기 보다 배웠던 내용을 까먹지 않도록 복습에 의의를 두고 있습니다.
 - `프론트엔드 개발자`에 관심을 두고 있어 `JavaScript`와 `React` 위주로 공부하고 있습니다.
 - 최대한 역량을 쌓고 배움의 나눔을 실천하는 것이 목표입니다. 
+  - https://bbangson.tistory.com/ 
 
 <br/>
 
