@@ -6,9 +6,12 @@
 
 - 주로 HTML 코드를 프로그래밍적으로 생성
 
-
+- 서버쪽에서 실행 되는 프로그래밍 언어
+- **P**ersonal **H**ome **P**age **T**ools의 약자에서 
+  - **P**HP : **H**ypertext **P**reprocessor로 의미가 변경 되었다. 
 
 
 
 ### PHP 장점
 
+- 웹에 
